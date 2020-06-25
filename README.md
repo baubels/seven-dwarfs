@@ -1,15 +1,13 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+I can never remember any of the names of the seven dwarfs in snow white, so I created a [web-app](https://seven-dwarfs.onrender.com/) which can.
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
 
-You can test your changes locally by installing Docker and using the following command:
+What's interesting is the data itself has about 30% of its images mislabeled, yet the prediction accuracy is much higher from testing it myself. I need to create a correct validation set first for a proper numerical test, so that is a TODO for me.
 
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
 
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
 
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+The reason for such mislabeled data is that not even google images knows which dwarf is which most of the time and my labelled images came from the front pages of those searches.
+
+
+
+This was done with [fast.ai](fast.ai), [render](render.com), and cheeky fork of a [fast-ai render deployment template](https://github.com/render-examples/fastai-v3).
