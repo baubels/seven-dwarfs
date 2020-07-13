@@ -10,3 +10,6 @@ The reason for such mislabeled data is that not even google images knows which d
 
 
 This was done with [fast.ai](fast.ai), [render](render.com), and cheeky fork of a [fast-ai render deployment template](https://github.com/render-examples/fastai-v3).
+
+
+(Unfortunately, my webapp service didn't like that I wasn't paying them, so the site it down. I hope to tie a few ends put it back up to eventually.)
